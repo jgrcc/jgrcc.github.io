@@ -2,7 +2,7 @@
 Universidad de Extremadura
 
 Tecnología para usuarios < - > Usuarios para tecnología
-# 👨‍💻 Blog Personal de [Tu Nombre]
+# 👨‍💻 Blog Personal de Julia González
 
 [![Jekyll Site Build](https://github.com/[TuUsuario]/[TuRepositorio]/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/[TuUsuario]/[TuRepositorio]/actions/workflows/pages/pages-build-deployment)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,7 +11,7 @@ Tecnología para usuarios < - > Usuarios para tecnología
 
 ## 🚀 Visita el sitio
 Puedes ver el blog en funcionamiento aquí:
-**👉 [https://[TuUsuario].github.io](https://[TuUsuario].github.io) 👈**
+**👉 [https://jgrcc.github.io](https://jgrcc.github.io) 👈**
 
 ---
 
