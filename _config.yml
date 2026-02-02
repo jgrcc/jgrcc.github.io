@@ -1,3 +1,8 @@
-theme: jekyll-theme-minimal
+remote_theme: mmistakes/minimal-mistakes
 title: Julia Gonzalez homepage
 description: Bookmark this to keep an eye on my project updates!
+
+description: "Desarrollador"
+author:
+  name: "Julia González"
+  email: "juliagon@unex.es"
