@@ -10,7 +10,7 @@ lang: es-ES
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air" # Opciones: "default", "air", "contrast", "dark", "sunrise"
 
-# --- 3. Configuración del Autor (Barra lateral) ---
+# --- 3. Configuración del Autor (Barra lateral) --- 
 author:
   name: "Julia González"
   avatar: "/assets/images/bio-photo.jpg" # Sube una foto a esta carpeta
