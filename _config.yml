@@ -1,8 +1,51 @@
-remote_theme: mmistakes/minimal-mistakes
-title: Julia Gonzalez homepage
-description: Bookmark this to keep an eye on my project updates!
+# --- 1. Configuración del Sitio ---
+title: El Blog de Julia González
+name: "Julia González"
+description: "Escribiendo sobre código, tecnología y vida."
+url: "https://tuusuario.github.io" # Tu URL final
+baseurl: "" # Déjalo vacío si es tu repositorio principal (jgrcc.github.io)
+lang: es-ES
 
-description: "Desarrollador"
+# --- 2. El Tema (La clave visual) ---
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air" # Opciones: "default", "air", "contrast", "dark", "sunrise"
+
+# --- 3. Configuración del Autor (Barra lateral) ---
 author:
   name: "Julia González"
-  email: "juliagon@unex.es"
+  avatar: "/assets/images/bio-photo.jpg" # Sube una foto a esta carpeta
+  bio: "Desarrollador, soñador y amante del café."
+  location: "Extremadura, España"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tuusuario"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/tuusuario"
+
+# --- 4. Comportamiento del Blog ---
+# Esto hace que la página no sea un solo texto largo, sino posts individuales
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true # Muestra tu foto y bio al lado de cada artículo
+      read_time: true      # Muestra "Lectura de 5 min"
+      comments: true       # Habilita comentarios (requiere config extra)
+      share: true          # Botones de Twitter/Facebook
+      related: true        # Sugiere otros posts al final
+
+# --- 5. Paginación ---
+# Necesario para que aparezca "Página 1 de 5" y no todos los posts de golpe
+paginate: 5 # Número de artículos por página
+paginate_path: /page:num/
+
+# --- 6. Plugins Necesarios ---
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
