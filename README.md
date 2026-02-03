@@ -46,7 +46,7 @@ Si quieres clonar este repositorio y probarlo en tu máquina:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[TuUsuario]/[TuRepositorio].git
+    git clone xxxxxx
     cd [TuRepositorio]
     ```
 
