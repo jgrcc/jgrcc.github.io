@@ -2,7 +2,7 @@
 title: El Blog de Julia González
 name: "Julia González"
 description: "Escribiendo sobre código, tecnología y vida."
-url: "https://tuusuario.github.io" # Tu URL final
+url: "https://jgrcc.github.io/" # Tu URL final
 baseurl: "" # Déjalo vacío si es tu repositorio principal (jgrcc.github.io)
 lang: es-ES
 
