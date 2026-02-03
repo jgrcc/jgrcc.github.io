@@ -1,5 +1,15 @@
 remote_theme: mmistakes/minimal-mistakes
 
+# Configuración del autor (aparecerá en la barra lateral)
+author:
+name     : "Tu Nombre"
+bio      : "Entusiasta de la tecnología y escritor ocasional."
+avatar   : "/assets/images/tu-foto.jpg"
+links:
+label: "GitHub"
+icon: "fab fa-fw fa-github"
+url: "https://github.com/jgrcc"
+
 # --- 1. Configuración del Sitio ---
 title: El Blog de Julia González
 name: "Julia González"
