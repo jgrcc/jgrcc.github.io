@@ -19,10 +19,10 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/tuusuario"
+      url: "https://github.com/jgrcc"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/tuusuario"
+      url: "https://linkedin.com/in/juliagon"
 
 # --- 4. Comportamiento del Blog ---
 # Esto hace que la página no sea un solo texto largo, sino posts individuales
