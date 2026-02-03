@@ -1,1 +1,10 @@
-#Primer post
+---
+title: "¡Bienvenidos a mi nuevo blog!"
+date: 2026-02-03
+categories: [general, noticias]
+tags: [bienvenida, jekyll]
+---
+
+Este es el contenido de mi primer post. Puedo escribir en **Markdown**, añadir imágenes y enlaces. 
+
+¡Espero que les guste!#Primer post
