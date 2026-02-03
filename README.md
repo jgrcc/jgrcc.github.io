@@ -66,7 +66,7 @@ Si quieres clonar este repositorio y probarlo en tu máquina:
 
 ## 📄 Licencia
 El código fuente de este sitio está bajo la licencia **MIT**.
-El contenido de los artículos (texto e imágenes) es propiedad de **[Tu Nombre]**.
+El contenido de los artículos (texto e imágenes) es propiedad de **Julia Gonzalez**.
 
 ---
-*Hecho con ❤️ y mucho café por [Tu Nombre]*
+*Hecho con ❤️ y mucho café por Julia*
