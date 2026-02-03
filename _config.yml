@@ -1,3 +1,5 @@
+remote_theme: mmistakes/minimal-mistakes
+
 # --- 1. Configuración del Sitio ---
 title: El Blog de Julia González
 name: "Julia González"
@@ -45,7 +47,10 @@ paginate_path: /page:num/
 
 # --- 6. Plugins Necesarios ---
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
+   - jekyll-seo-tag
