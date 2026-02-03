@@ -4,8 +4,7 @@ Universidad de Extremadura
 Tecnología para usuarios < - > Usuarios para tecnología
 # 👨‍💻 Blog Personal de Julia González
 
-[![Jekyll Site Build](https://github.com/jgrcc/jgrcc.github.io/tree/main)]/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jgrcc/jgrcc.github.io/actions/workflows/pages/pages-build-deployment)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Despliegue del Blog](https://github.com/jgrcc/jgrcc.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/jgrcc/jgrcc.github.io/actions/workflows/deploy.yml)
 
 > Este repositorio contiene el código fuente y los artículos de mi blog personal.
 
@@ -35,8 +34,11 @@ Aquí explico brevemente cómo está organizado el código:
 | :--- | :--- |
 | `_posts/` | Aquí viven los artículos del blog (formato `.md`). |
 | `_config.yml` | El cerebro del sitio. Contiene toda la configuración global. |
-| `index.html` | La página de inicio que lista los últimos posts. |
+| `index.md` | La página de inicio que lista los últimos posts. |
 | `assets/` | Imágenes, CSS personalizado y archivos estáticos. |
+| '.github/workflows` | Configuración de GitHub Actions para el despliegue automático. |
+| 'Gemfile` |Lista de dependencias y plugins (necesario para el despliegue) |
+
 
 ---
 
@@ -46,8 +48,8 @@ Si quieres clonar este repositorio y probarlo en tu máquina:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone xxxxxx
-    cd [TuRepositorio]
+  git clone https://github.com/jgrcc/jgrcc.github.io.git
+  cd jgrcc.github.io
     ```
 
 2.  **Instala las dependencias (necesitas Ruby):**
