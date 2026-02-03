@@ -13,7 +13,7 @@ minimal_mistakes_skin: "air" # Opciones: "default", "air", "contrast", "dark", "
 # --- 3. Configuración del Autor (Barra lateral) --- 
 author:
   name: "Julia González"
-  avatar: "/assets/images/bio-photo.jpg" # Sube una foto a esta carpeta
+  avatar: "/assets/images/julia.jpeg" # Sube una foto a esta carpeta
   bio: "Desarrollador, soñador y amante del café."
   location: "Extremadura, España"
   links:
